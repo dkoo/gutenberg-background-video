@@ -1,0 +1,31 @@
+{
+  "name": "test-block",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js --progress",
+    "watch": "webpack --config webpack.config.js --watch --progress",
+    "start": "npm i && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "clean-webpack-plugin": "^2.0.1",
+    "copy-webpack-plugin": "^5.0.2",
+    "css-loader": "^2.1.1",
+    "cssnano": "^4.1.10",
+    "mini-css-extract-plugin": "^0.6.0",
+    "postcss-import": "^12.0.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.6.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}

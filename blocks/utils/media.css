@@ -1,0 +1,10 @@
+@custom-media --medium ( min-width: 768px );
+@custom-media --large ( min-width: 980px );
+@custom-media --xlarge ( min-width: 1280px );
+
+@custom-media --min-3-4 ( min-aspect-ratio: 3/4 );
+
+/* WP Breakpoints */
+@custom-media --wp-small ( min-width: 600px );
+@custom-media --wp-medium-max (max-width: 782px);
+@custom-media --wp-medium ( min-width: 782px );
