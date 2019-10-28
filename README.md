@@ -1,5 +1,7 @@
 # YouTube Background Video Block for Gutenberg
 
+A quick experiment with combining the YouTube embed API with a dynamic Gutenberg block to create a new type of hero element.
+
 ## What is this?
 
 I'm a front-end engineer and WordPress developer at [10up](https://10up.com). To learn more about [Gutenberg](https://wordpress.org/gutenberg/), I built this [dynamic block](https://developer.wordpress.org/block-editor/tutorials/block-tutorial/creating-dynamic-blocks/) for fun and ended up using it on my own personal website. You can [see it in action there](https://dkoo.co).
@@ -8,7 +10,7 @@ The architecture for this plugin is loosely based on [10up’s plugin scaffold](
 
 ## What does it do?
 
-You insert the Background Video block into your page or post content. You give it a shareable YouTube video URL. The block uses the [YouTube JavaScript API](https://developers.google.com/youtube/v3/quickstart/js) to embed the video as full-viewport hero element with the video playing silently in the background, similar to [this type of effect](https://www.w3schools.com/howto/howto_css_fullscreen_video.asp) which has been trendy for all kinds of sites for the past few years. Optionally, you can add a "next" button which smooth scrolls to the next sibling element on the page, and/or overlay other blocks on top of the element (but keep be careful not to overflow the viewport or things might get wonky).
+You insert the Background Video block into your page or post content. You give it a shareable YouTube video URL. The block uses the [YouTube JavaScript API](https://developers.google.com/youtube/v3/quickstart/js) to embed the video as full-viewport hero element with the video playing silently in the background, similar to [this type of effect](https://www.w3schools.com/howto/howto_css_fullscreen_video.asp) which has been trendy for all kinds of sites for the past few years. Optionally, you can add a "next" button which smooth scrolls to the next sibling element on the page, and/or overlay other blocks on top of the element (but be careful not to overflow the viewport or things might get wonky).
 
 ## Why YouTube?
 
