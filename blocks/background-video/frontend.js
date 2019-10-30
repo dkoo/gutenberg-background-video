@@ -105,14 +105,16 @@ const handleScroll = ( e ) => {
 				const parent = players[id].el;
 				const player = players[id].player;
 
-				if ( ! player ) {
+				if ( ! player || ! player.playVideo || ! player.pauseVideo ) {
 					return;
 				}
 
 				if ( isVisible( parent ) ) {
-					player.playVideo();
-				} else {
-					player.pauseVideo();
+					if ( player.getPlayerState() !== 1 ) {
+						player.playVideo();
+
+						delete player[id];
+					}
 				}
 			}
 		}
